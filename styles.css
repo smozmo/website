@@ -1,7 +1,9 @@
+    /*first part*/
 body{
     margin: 0px;
     padding: 0px;
-    height: 100vh;
+    height: min 100vh;
+    font-family: "roboto" sans-serif;
 }
 .container{
     display: flex;
@@ -33,10 +35,11 @@ header{
     justify-content: space-between;
 }
 .img{
-    width: 850px;
+    width: 950px;
     padding-right: 200px;
     height: 300px;
     text-align: center;
+    
 }
 .mainText{
     display: flex;
@@ -62,6 +65,7 @@ button{
     padding-right: 12px;
     font-size: 18px;
 }
+    /*second part*/
 main{
     display: flex;
     background-color: white;
@@ -92,4 +96,57 @@ figcaption{
     display: flex;
     gap: 16px;
 }
+    /* third part*/
+.cont{
+    text-align: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 300;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #1f2937;
+}
+.author{
+    text-align: end;
+}
+    /*last part*/
+.last{
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
+.last-box{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    
+}
 
+.signup{
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: large;
+}
